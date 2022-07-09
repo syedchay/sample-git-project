@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Test" duration-ms="1085" started-at="2020-06-06T16:48:31Z" finished-at="2020-06-06T16:48:32Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="464" started-at="2020-06-06T16:48:31Z" finished-at="2020-06-06T16:48:31Z">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@25ce9dc4]" name="loginTest" duration-ms="415" started-at="2020-06-06T16:48:31Z" data-provider="dp" finished-at="2020-06-06T16:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[w2ajava@way2automation.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsrfsdfs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Second Test" duration-ms="6" started-at="2020-06-06T16:48:32Z" finished-at="2020-06-06T16:48:32Z">
+      <class name="testcases.SecondTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.SecondTest@75437611]" name="setUp" is-config="true" duration-ms="7874" started-at="2020-06-06T16:48:23Z" finished-at="2020-06-06T16:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="secondTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.SecondTest@75437611]" name="secondTest" duration-ms="2" started-at="2020-06-06T16:48:32Z" data-provider="dp" finished-at="2020-06-06T16:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arora]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.SecondTest@75437611]" name="tearDown" is-config="true" duration-ms="784" started-at="2020-06-06T16:48:32Z" finished-at="2020-06-06T16:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SecondTest -->
+    </test> <!-- Second Test -->
+  </suite> <!-- Data Driven Test -->
+</testng-results>

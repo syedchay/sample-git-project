@@ -1,0 +1,8 @@
+INFO    2020-06-06 22:18:23,257 [main] base.BaseTest  - OR Properties loaded !!!
+INFO    2020-06-06 22:18:23,258 [main] base.BaseTest  - Config Properties loaded !!!
+INFO    2020-06-06 22:18:27,107 [main] base.BaseTest  - Chrome Browser Launched !!!
+INFO    2020-06-06 22:18:28,746 [main] base.BaseTest  - Navigating to the URL : http://gmail.com
+INFO    2020-06-06 22:18:28,934 [main] base.BaseTest  - Database connection established
+INFO    2020-06-06 22:18:31,440 [main] base.BaseTest  - Typing in an Element: username_ID entered the value as : w2ajava@way2automation.com
+INFO    2020-06-06 22:18:31,549 [main] base.BaseTest  - Clicking on an Element: nextBtn_XPATH
+INFO    2020-06-06 22:18:32,994 [main] base.BaseTest  - Test Execution completed !!!
