@@ -14,6 +14,7 @@ public class LoginTest extends BaseTest {
 	@Test(dataProviderClass = DataUtil.class, dataProvider="dp")
 	public void loginTest(String username, String password) {
 		
+		//comment1
 		type("username_ID",username);
 		click("nextBtn_XPATH");
 	
