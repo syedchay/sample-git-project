@@ -15,6 +15,7 @@ public class LoginTest extends BaseTest {
 	public void loginTest(String username, String password) {
 		
 		//comment1
+		//comment2
 		type("username_ID",username);
 		click("nextBtn_XPATH");
 	
