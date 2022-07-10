@@ -21,6 +21,7 @@ public class LoginTest extends BaseTest {
 		//comment5
 		//comment6
 		//comment7
+		//comment8
 		type("username_ID",username);
 		click("nextBtn_XPATH");
 	
